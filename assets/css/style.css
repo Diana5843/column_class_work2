@@ -1,13 +1,20 @@
 @import "./bootstrap-grid.min.css";
+@import "./grid.css";
 
 *{
   box-sizing: border-box;
+  font-size: 30px;
 }
 
 .row > div{
-  border: 3px solid red;
+ text-align: center;
+ padding: 20px;
+ 
 }
 
-.nav-list{
+.nav-list{      
   display: flex;
 }
+
+
+
