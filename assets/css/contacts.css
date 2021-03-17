@@ -1,0 +1,34 @@
+.contacts{
+    background-color: var(--light-color-bk);
+    text-align: center;
+    font-size: 15px;
+}
+
+.contact-name, .contact-email{
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+
+.contact-massage{
+    width: 50%;
+    margin-bottom: 30px;
+    border: none;
+}
+
+
+
+.design-btn2{
+    margin: 0 auto;
+
+    background-color: var(--dark-blue);
+    color: aliceblue;
+    border: 1px solid black;
+    cursor: pointer;
+
+    width: 200px;
+    padding: 20px; 
+    
+}

@@ -1,0 +1,17 @@
+.my-work{
+    background-color: var(--light-color-bk);
+}
+
+.section-video{
+    display: flex;
+  
+    width: 70%;
+    height: 800px;
+
+}
+
+.yt-video{
+    width: 100%;
+    height: 100%;
+
+}

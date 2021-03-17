@@ -1,0 +1,15 @@
+.foot-contact{
+    display: flex;
+    align-items: center;
+    color: var(--light-color-bk);
+    background-color: var(--dark-blue);
+    padding: 30px;
+}
+
+
+.media{
+    display: flex;
+    font-size: 30px;
+    letter-spacing: 10px;
+    cursor: pointer;
+}

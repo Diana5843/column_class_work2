@@ -1,0 +1,20 @@
+.projects{
+    background-color: var(--dark-blue);
+
+}
+
+
+.projects-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+.project-content{
+    color: rgb(255, 255, 255);
+}
+

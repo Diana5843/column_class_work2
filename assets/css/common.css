@@ -1,0 +1,30 @@
+:root{
+    --dark-blue: #34547A;
+    --light-color-bk: #EEEFF1;
+  }
+  
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .row > div{
+   padding: 20px;
+  }
+  
+  .alight-center{
+    text-align: center;
+  }
+  
+  img{
+    vertical-align: middle;
+    border: 0;
+  }
+  
+.text-decoration{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 40px;
+    color: rgb(107, 106, 106);
+  }

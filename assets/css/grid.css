@@ -1,3 +1,9 @@
+*{
+  box-sizing: border-box;
+  width: 100%;
+  
+}
+
 .container{
 --column-count: 12;
 --gutter-size: 1rem;
@@ -5,19 +11,33 @@
 
   width: 100%;
   margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+
+  padding-left: var(--padding-value);
+  padding-right: var(--padding-value);
+  
 }
 
 .row{
   display: flex;
   flex-wrap: wrap;
 
-  margin-left: var(--padding-value);
-  margin-right: var(--padding-value);
+  margin-left: var(--padding-value) * -1;
+  margin-right: var(--padding-value) * -1;
 }
 
 .row > *{
   padding-left: var(--gutter-size);
   padding-right: var(--gutter-size);
+}
+
+.no-gutters{
+  margin: 0;
+
+}
+
+.no-gutters > * {
+  padding: 0;
 }
 
 .col-1{
@@ -221,62 +241,62 @@ xxl >= 1400px; */
   .container{
     max-width: 960px;
   }
-  .col-ld-1{
+  .col-lg-1{
     --width: calc(100% / var(--column-count) * 1);
     flex-basis: var(--width);
     max-width: var(--width);
   }
-  .col-ld-2{
+  .col-lg-2{
     --width: calc(100% / var(--column-count) * 2);
     flex-basis: var(--width);
     max-width: var(--width);
   }
-  .col-ld-3{
+  .col-lg-3{
     --width: calc(100% / var(--column-count) * 3);
     flex-basis: var(--width);
     max-width: var(--width);
   }
-  .col-ld-4{
+  .col-lg-4{
     --width: calc(100% / var(--column-count) * 4);
     flex-basis: var(--width);
     max-width: var(--width);
   }
-  .col-ld-5{
+  .col-lg-5{
     --width: calc(100% / var(--column-count) * 5);
     flex-basis: var(--width);
     max-width: var(--width);
   }
-  .col-ld-6{
+  .col-lg-6{
     --width: calc(100% / var(--column-count) * 6);
     flex-basis: var(--width);
     max-width: var(--width);
   }
-  .col-ld-7{
+  .col-lg-7{
     --width: calc(100% / var(--column-count) * 7);
     flex-basis: var(--width);
     max-width: var(--width);
   }
-  .col-ld-8{
+  .col-lg-8{
     --width: calc(100% / var(--column-count) * 8);
     flex-basis: var(--width);
     max-width: var(--width);
   }
-  .col-ld-9{
+  .col-lg-9{
     --width: calc(100% / var(--column-count) * 9);
     flex-basis: var(--width);
     max-width: var(--width);
   }
-  .col-ld-10{
+  .col-lg-10{
     --width: calc(100% / var(--column-count) * 10);
     flex-basis: var(--width);
     max-width: var(--width);
   }
-  .col-ld-11{
+  .col-lg-11{
     --width: calc(100% / var(--column-count) * 11);
     flex-basis: var(--width);
     max-width: var(--width);
   }
-  .col-ld-12{
+  .col-lg-12{
     --width: calc(100% / var(--column-count) * 12);
     flex-basis: var(--width);
     max-width: var(--width);

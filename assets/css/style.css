@@ -1,20 +1,13 @@
+@import "./reset.css";
 @import "./bootstrap-grid.min.css";
 @import "./grid.css";
-
-*{
-  box-sizing: border-box;
-  font-size: 30px;
-}
-
-.row > div{
- text-align: center;
- padding: 20px;
- 
-}
-
-.nav-list{      
-  display: flex;
-}
-
-
-
+@import "./header.css";
+@import "./design.css";
+@import "./common.css";
+@import "./projects.css";
+@import "./skill.css";
+@import "./my-work.css";
+@import "./card.css";
+@import "./microsoft.css";
+@import "./contacts.css";
+@import "./footer.css";
