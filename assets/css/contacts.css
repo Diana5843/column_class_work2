@@ -22,6 +22,8 @@
 
 .design-btn2{
     margin: 0 auto;
+    margin-bottom: 20px;
+
 
     background-color: var(--dark-blue);
     color: aliceblue;

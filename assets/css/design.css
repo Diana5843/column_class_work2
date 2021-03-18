@@ -18,7 +18,7 @@
     border: 1px solid black;
     cursor: pointer;
 
-    margin-top: 50px;
+    margin: 50px;
     width: 200px;
     padding: 20px; 
 }
@@ -27,5 +27,6 @@
 
 .about-content{
     text-align: center;
+    margin: 50px;
 }
 

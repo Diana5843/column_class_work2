@@ -3,7 +3,6 @@
 
 }
 
-
 .projects-item{
     display: flex;
     flex-direction: row;
@@ -12,6 +11,8 @@
     text-align: center;
     height: 50px;
     width: 50px;
+    margin: 20px;
+    
 }
 
 .project-content{

@@ -1,4 +1,22 @@
-.img-wrapper{
-    width: 550px;
-    height: 450px;
+
+.image-men, .skill-img{
+    width: 100%;  
+    padding: 20px;
+}
+
+
+.skill-progress{
+  width: 200px;
+  height: 5px;
+  background-color: gray;
+}
+
+.bar-item{
+  height: 100%;
+  width: 50%;
+  background-color: blue;
+}
+
+.item-title{
+  padding: 10px;
 }

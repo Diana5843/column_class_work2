@@ -1,14 +1,16 @@
 *{
   box-sizing: border-box;
   width: 100%;
-  
 }
 
-.container{
+
+:root{
 --column-count: 12;
---gutter-size: 1rem;
+--gutter-size: 2rem;
 --padding-value: calc(var(--gutter-size) / 2);
 
+}
+.container{
   width: 100%;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
