@@ -111,7 +111,7 @@ xxl >= 1400px; */
 
 @media screen and (min-width: 576px){
   .container{
-    max-width: 540px;
+    max-width: 560px;
   }
   .col-sm-1{
     --width: calc(100% / var(--column-count) * 1);
